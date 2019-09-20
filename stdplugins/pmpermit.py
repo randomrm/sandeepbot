@@ -23,7 +23,7 @@ UNIBORG_USER_BOT_NO_WARN = ("`Bleep blop! This is a bot. Don't fret.`\n\n"
                   "`Please wait for his response and don't SPAM his PM `"
                   "`If u do SPAM i block u `"
                   "`If u have urgent work go there 👇 `"
-                  "@blacksocietyy.\n\n"
+                  "@blacksociety.\n\n"
                   "`You will find answer  of  all your questions there.`")
 
 
