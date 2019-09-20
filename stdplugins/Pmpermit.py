@@ -21,6 +21,8 @@ UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
 UNIBORG_USER_BOT_NO_WARN = ("`Bleep blop! This is a bot. Don't fret.`\n\n"
                   "`My master hasn't approved you to PM.`"
                   "`Please wait for my master to look in, he mostly approves PMs.`\n\n"
+                  "`Don't do SPAM here else I block you `"
+                  "`If u have Urgent work dm here 👉 @blacksociety `"
                   "`As far as I know, he doesn't usually approve retards though.`")
 
 
