@@ -14,11 +14,11 @@ async def _(event):
         s_help_string = ""
     help_string = """@UniBorg
 
-Userbot Help Window of @prabal007
+Userbot Help Window of @justinguru777
 Python {}
 Telethon {}
 
-Github : https://github.com/prabal0071/BorgBot""".format(
+Github : https://github.com/randomrm/sandeepbot.git""".format(
         sys.version,
         __version__
     )
@@ -54,4 +54,4 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("""@prabal007""")
+    await event.edit("""@justinguru777""")
