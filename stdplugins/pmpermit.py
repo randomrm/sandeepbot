@@ -79,7 +79,7 @@ async def approve_p_m(event):
                 await event.delete()
 
 
-@borg.on(admin_cmd("block ?(.*)"))
+@borg.on(admin_cmd("blockpm ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
