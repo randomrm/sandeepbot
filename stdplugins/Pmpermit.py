@@ -21,8 +21,8 @@ UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
 UNIBORG_USER_BOT_NO_WARN = ("`Bleep blop! This is a bot. Don't fret.`\n\n"
                   "`My master hasn't approved you to PM.`"
                   "`Please wait for my master to look in, he mostly approves PMs.`\n\n"
-                  "`Don't do SPAM here else I block you `"
-                  "`If u have Urgent work dm here 👉 @blacksociety `"
+                  "`Don't do SPAM here else I block you. `\n\n"
+                  "`If u have Urgent work dm here 👉 `@blacksociety`. `\n\n"
                   "`As far as I know, he doesn't usually approve retards though.`")
 
 
@@ -73,7 +73,7 @@ async def approve_p_m(event):
                     await borg.storage.PREV_REPLY_MESSAGE[chat.id].delete()
                     del borg.storage.PREV_REPLY_MESSAGE[chat.id]
                 approve(chat.id, reason)
-                await event.edit("Private Message Accepted")
+                await event.edit(chat.id "Approved to PM!")
                 await asyncio.sleep(3)
                 await event.delete()
 
